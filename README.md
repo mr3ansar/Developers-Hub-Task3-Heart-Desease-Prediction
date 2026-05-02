@@ -16,7 +16,7 @@ Predict whether a patient has heart disease using 13 medical measurements. Binar
 
 ---
 
-## 🤖 Models & Results
+## Models & Results
 
 | Model | Accuracy | ROC-AUC |
 |---|---|---|
