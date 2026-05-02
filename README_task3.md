@@ -1,15 +1,15 @@
-# ❤️ Task 3: Heart Disease Prediction
+# Task 3: Heart Disease Prediction
 **DevelopersHub Corporation — AI/ML Engineering Internship**
 **Author:** Abdul Samad
 
 ---
 
-## 📌 Objective
+## Objective
 Predict whether a patient has heart disease using 13 medical measurements. Binary classification: `1` = disease, `0` = healthy.
 
 ---
 
-## 📂 Dataset
+## Dataset
 - **Source:** Heart Disease UCI (multi-source) — Kaggle
 - **Patients:** 920 · **Features:** 13 · **Missing values:** 1,759 (filled with median)
 - **Cleaning applied:** Encoded text/bool columns, dropped `id` + `dataset`, converted `num` → binary target
@@ -25,7 +25,7 @@ Predict whether a patient has heart disease using 13 medical measurements. Binar
 
 ---
 
-## 💡 Key Findings
+## Key Findings
 1. **Chest pain type (cp)** is the strongest predictor — asymptomatic pain = highest risk
 2. **Max heart rate (thalach)** — lower rate during exercise = more disease risk
 3. **Blocked vessels (ca)** — direct physical measure of arterial damage
@@ -33,7 +33,7 @@ Predict whether a patient has heart disease using 13 medical measurements. Binar
 
 ---
 
-## ▶️ How to Run
+## How to Run
 ```bash
 pip install scikit-learn pandas numpy matplotlib seaborn jupyter
 jupyter notebook heart_disease_prediction.ipynb
